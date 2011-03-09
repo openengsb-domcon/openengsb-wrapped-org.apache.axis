@@ -20,27 +20,26 @@
   <parent>
     <groupId>org.openengsb.wrapped</groupId>
     <artifactId>openengsb-wrapped-parent</artifactId>
-    <version>1</version>
+    <version>4</version>
   </parent>
 
   <properties>
-    <axis.version>3.1.3</axis.version>
     <bundle.symbolicName>axis</bundle.symbolicName>
     <wrapped.groupId>axis</wrapped.groupId>
     <wrapped.artifactId>axis</wrapped.artifactId>
-    <wrapped.version>${axis.version}</wrapped.version>
+    <wrapped.version>3.1.3</wrapped.version>
     <bundle.namespace>${wrapped.groupId}</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>axis-all</artifactId>
-  <version>1.3</version>
+  <version>3.1.3.w1-SNAPSHOT</version>
 
-  <name>OpenEngSB :: OSGi Wrapped Bundles :: axis</name>
+  <name>OpenEngSB :: OSGi Wrapped Bundles :: Apache Axis</name>
 
   <packaging>bundle</packaging>
 
-  <description>axis wrapped bundle</description>
+  <description>Wrapped bundles for org.apache.axis</description>
 
   <url>http://www.openengsb.org</url>
   <licenses>
@@ -52,9 +51,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/openengsb/openengsb-wrapped-axis.git</connection>
-    <developerConnection>scm:git:git@github.com:openengsb/openengsb-wrapped-axis.git</developerConnection>
-    <url>http://github.com/openengsb/openengsb-axis</url>
+    <connection>scm:git:git://github.com/openengsb/openengsb-wrapped-org.apache.axis.git</connection>
+    <developerConnection>scm:git:git@github.com:openengsb/openengsb-wrapped-org.apache.axis.git</developerConnection>
+    <url>http://github.com/openengsb/openengsb-wrapped-org.apache.axis</url>
   </scm>
 
   <dependencies>
