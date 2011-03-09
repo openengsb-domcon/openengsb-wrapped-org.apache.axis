@@ -32,7 +32,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>axis-all</artifactId>
-  <version>3.1.3.w1</version>
+  <version>3.1.3.w2-SNAPSHOT</version>
 
   <name>OpenEngSB :: OSGi Wrapped Bundles :: Apache Axis</name>
 
